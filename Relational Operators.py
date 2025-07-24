@@ -28,4 +28,10 @@ print(a<b)
 print(a>=b)
 print(a<=b)
 
+# if we want to find ASCII VALUE for the letter then use ORD keyword (ord)
+ # Example:
+
+print(ord("v"))
+print(ord("V"))
+
 
