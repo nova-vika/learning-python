@@ -67,5 +67,15 @@ elif(number<0):
 
 
 
+         # FINDING A NUMBER IS ODD OR EVEN :
+
+number = int(input("Enter a Number:"))
+if(number%2==0):
+    print(number,"is odd number")
+else:
+    print(number,"is even number")            
+
+
+
 
 
