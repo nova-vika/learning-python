@@ -71,9 +71,9 @@ elif(number<0):
 
 number = int(input("Enter a Number:"))
 if(number%2==0):
-    print(number,"is odd number")
+    print(number,"is even number")
 else:
-    print(number,"is even number")            
+    print(number,"is odd number") 
 
 
 
