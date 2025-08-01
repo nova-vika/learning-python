@@ -53,9 +53,7 @@ for fruits in fruits:
 #__________________________________________________________________________________________________    
  
      #                                      WHILE LOOP : 
-    
-           # reapeatedly runs a block of code as long as a condition is true .
-
+         
            # syntax:
                # while(condition):
                    # block of code 
@@ -109,7 +107,7 @@ for i in range(1 , n+1):
     print(j, end=" ")
   print()  # Move to the next line after each row
 
-  
+
 
 
    
