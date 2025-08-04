@@ -69,5 +69,33 @@ print(math.factorial(n))
 #Best for quick use — fast, clean, and optimized.
 
 
+# FIBONACCI SERIES :
 
+       # each num is the "sum of the previous 2 num".
+       # 0,1,1,2,5,8,......etc
+        
+       # RULE :
+           #......1st num = 0
+           #......2nd num = 1
+           #......3rd num = previous num + one before that.
+
+           # so.....
+               # 0+1 = 1
+               # 1+1 = 2
+               # 1+2 = 3
+               # 2+3 = 5
+               #.............etcc
+
+# CODE :
+
+n = int(input("Enter how many Fibonacci numbers to print: "))
+def fibonacci(n):
+  a = 0
+  b = 1
+  for i in range(n):
+    print(a,end="")
+    c = a+b
+    a = b
+    b = c
+fibonacci(n)    
   
